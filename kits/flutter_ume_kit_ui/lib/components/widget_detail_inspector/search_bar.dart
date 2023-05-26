@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide SearchBar;
 import 'package:flutter/services.dart';
 import 'package:flutter_ume_kit_ui/util/binding_ambiguate.dart';
+
 import 'icon.dart' as icon;
 
 typedef void OnSubmitHandle(String text);
